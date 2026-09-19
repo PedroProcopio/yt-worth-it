@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "YT Worth It",
+  "version": "0.1.0",
+  "description": "Badges YouTube videos as WORTH IT or SKIP using Jev (TypeSafe).",
+  "permissions": ["storage"],
+  "host_permissions": ["https://api.typesafe.ai/*"],
+  "background": { "service_worker": "background.js" },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

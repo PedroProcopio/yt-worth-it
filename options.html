@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>YT Worth It options</title>
+  <style>
+    body { font: 14px system-ui, sans-serif; padding: 16px; max-width: 480px; }
+    input { width: 100%; padding: 6px; margin: 6px 0; }
+    button { margin-right: 8px; }
+    #status { margin-left: 8px; color: #1e8e3e; }
+    p.note { color: #666; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <h2>YT Worth It</h2>
+  <label for="key">TypeSafe API key</label>
+  <input id="key" type="password" placeholder="ts-...">
+  <button id="save">Save</button>
+  <button id="clear">Clear cache</button>
+  <span id="status"></span>
+  <p class="note">Your key stays in this browser only.</p>
+  <script src="options.js"></script>
+</body>
+</html>

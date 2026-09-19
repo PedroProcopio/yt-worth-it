@@ -1,0 +1,12 @@
+.ytwi { display: inline-block; margin-left: 6px; white-space: nowrap; vertical-align: middle; }
+.ytwi-badge, .ytwi-cat {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 9px;
+  font: 600 11px/16px Roboto, Arial, sans-serif;
+  color: #fff;
+  margin-right: 4px;
+}
+.ytwi-worth { background: #1e8e3e; }
+.ytwi-skip { background: #9aa0a6; }
+.ytwi-cat { background: #3c78d8; }
